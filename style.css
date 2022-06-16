@@ -1,10 +1,12 @@
 
 .link{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     background-color: #c4f5fc;
     color: black;
     cursor: pointer;
+    width: 20%;
+    margin: auto;
 }
 .link a{
     text-decoration: none;
