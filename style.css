@@ -2,12 +2,17 @@
 .link{
     text-align: center;
     font-size: 2rem;
+    background-color: #c4f5fc;
+    color: black;
+    cursor: pointer;
 }
- a{
+.link a{
     text-decoration: none;
+     color: black;
 }
-.dash{
-    color: darkblue;
+.link a:hover{
+    background-color: none;
+    cursor: pointer;
 }
 .container{
     float: none;
