@@ -1,0 +1,107 @@
+
+.link{
+    text-align: center;
+    font-size: 2rem;
+}
+ a{
+    text-decoration: none;
+}
+.dash{
+    color: darkblue;
+}
+.container{
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+h2{
+    font-family: 'Big Shoulders display';
+    font-weight: 700px;
+    font-size: 3rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+p{
+    font-family: 'Lexend Deca';
+    font-weight: 400px;
+    font-size: 1em;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.column1{
+    background-color: hsl(31, 77%, 52%);
+    width: 200px;
+    height: 350px;
+    padding: 2em;
+}
+.column2{
+    background-color: hsl(184, 100%, 22%);
+    width: 200px;
+    padding: 2em;
+    height: 350px;
+}
+.column3{
+    background-color: hsl(179, 100%, 13%);
+    width: 200px;
+    padding: 2em;
+    height: 350px;
+}
+button{
+    cursor: pointer;
+    margin-top: 7rem;
+    background: hsl(0, 0%, 95%);
+    font-size: 15px;
+    border:  none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 60%;
+}
+.button1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 1px solid white;
+}
+.button1{
+    color:hsl(31, 77%, 52%);
+}
+.button2{
+    color:hsl(184, 100%, 22%); 
+    margin-top: 5.5rem;
+}
+.button2:hover{
+    color: white;
+    border: 1px solid white;
+    background-color: hsl(184, 100%, 22%);
+}
+.button3{
+    color: hsl(179, 100%, 13%);
+}
+.button3:hover{
+    color: white;
+    border: 1px solid white;
+    background-color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 375px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 15%;
+        margin-top: 50%;
+    }
+    h1{ font-size: 3rem;}
+    .column1{
+        padding-bottom: 5rem;
+        height: 350px;
+    }
+    .column2{
+        padding-bottom: 5rem;
+        height: 350px;
+    }
+    .column3{
+        padding-bottom: 5rem;
+        height: 350px;
+    }
+
+}
