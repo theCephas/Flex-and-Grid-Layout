@@ -1,12 +1,11 @@
-
 .link{
     text-align: center;
     font-size: 1rem;
     background-color: #c4f5fc;
     color: black;
     cursor: pointer;
-    width: 20%;
     margin: auto;
+    width: 20%;
 }
 .link a{
     text-decoration: none;
@@ -33,26 +32,26 @@ h2{
 p{
     font-family: 'Lexend Deca';
     font-weight: 400px;
-    font-size: 1em;
+    font-size: 1.22em;
     color: hsla(0, 0%, 100%, 0.75);
 }
 .column1{
     background-color: hsl(31, 77%, 52%);
-    width: 200px;
-    height: 350px;
-    padding: 2em;
+    width: 150px;
+    padding: 3em;
+    height: auto;
 }
 .column2{
     background-color: hsl(184, 100%, 22%);
-    width: 200px;
-    padding: 2em;
-    height: 350px;
+    width: 150px;
+    padding: 3em;
+    height: auto;
 }
 .column3{
     background-color: hsl(179, 100%, 13%);
-    width: 200px;
-    padding: 2em;
-    height: 350px;
+    width: 150px;
+    padding: 3em;
+    height: auto;
 }
 button{
     cursor: pointer;
@@ -62,7 +61,7 @@ button{
     border:  none;
     border-radius: 20px;
     padding: 10px;
-    width: 60%;
+    width: 100%;
 }
 .button1:hover{
     background-color: hsl(31, 77%, 52%);
@@ -71,10 +70,11 @@ button{
 }
 .button1{
     color:hsl(31, 77%, 52%);
+    margin-top: 6.78rem;
 }
 .button2{
     color:hsl(184, 100%, 22%); 
-    margin-top: 5.5rem;
+    margin-top: 6.78rem;
 }
 .button2:hover{
     color: white;
@@ -83,6 +83,7 @@ button{
 }
 .button3{
     color: hsl(179, 100%, 13%);
+    margin-top: 6.78rem;
 }
 .button3:hover{
     color: white;
@@ -90,7 +91,7 @@ button{
     background-color: hsl(179, 100%, 13%);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
     .container{
         display: flex;
         flex-direction: column;
