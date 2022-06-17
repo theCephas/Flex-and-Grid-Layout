@@ -31,26 +31,27 @@ h2{
 }
 p{
     font-family: 'Lexend Deca';
-    font-weight: 400px;
-    font-size: 1.22em;
+    font-weight: 300px;
+    font-size: 1em;
+    line-height: 20px;
     color: hsla(0, 0%, 100%, 0.75);
 }
 .column1{
     background-color: hsl(31, 77%, 52%);
-    width: 150px;
-    padding: 3em;
+    width: 180px;
+    padding: 2.5em;
     height: auto;
 }
 .column2{
     background-color: hsl(184, 100%, 22%);
-    width: 150px;
-    padding: 3em;
+    width: 180px;
+    padding: 2.5em;
     height: auto;
 }
 .column3{
     background-color: hsl(179, 100%, 13%);
-    width: 150px;
-    padding: 3em;
+    width: 180px;
+    padding: 2.5em;
     height: auto;
 }
 button{
@@ -61,7 +62,7 @@ button{
     border:  none;
     border-radius: 20px;
     padding: 10px;
-    width: 100%;
+    width: 80%;
 }
 .button1:hover{
     background-color: hsl(31, 77%, 52%);
